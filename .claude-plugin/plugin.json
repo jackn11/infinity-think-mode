@@ -1,0 +1,10 @@
+{
+  "name": "infinity-think-mode",
+  "version": "1.0.0",
+  "description": "Claude thinks forever and never answers. Turn it on with /infinity-think-mode:on; press Esc and run /infinity-think-mode:off to get out.",
+  "author": {
+    "name": "jackn11"
+  },
+  "license": "MIT",
+  "keywords": ["thinking", "fun", "joke"]
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Keeps Claude thinking while Infinity Think Mode is on",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/infinity-think.sh\" stop",
+            "asyncRewake": true
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/infinity-think.sh\" prompt"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "infinity-think-mode",
+  "owner": {
+    "name": "jackn11"
+  },
+  "metadata": {
+    "description": "Infinity Think Mode: Claude thinks forever and never answers."
+  },
+  "plugins": [
+    {
+      "name": "infinity-think-mode",
+      "source": "./",
+      "description": "Claude thinks forever and never answers. Turn it on with /infinity-think-mode:on; press Esc and run /infinity-think-mode:off to get out."
+    }
+  ]
+}
