@@ -1,6 +1,6 @@
 # Infinity Think Mode
 
-*It don't get smarter than this.*
+It don't get smarter than this.
 
 A Claude Code plugin that makes Claude think forever and never answer.
 
