@@ -1,5 +1,7 @@
 # Infinity Think Mode
 
+*it don't get smarter than this.*
+
 A Claude Code plugin that makes Claude think forever and never answer.
 
 ## Install
